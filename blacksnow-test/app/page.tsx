@@ -3,9 +3,9 @@
 import { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
-import { Download, Upload, Gauge } from "lucide-react"
+import { Download, Upload, Gauge } from 'lucide-react'
 
-export default function Component() {
+export default function Home() {
   const [isRunning, setIsRunning] = useState(false)
   const [progress, setProgress] = useState(0)
   const [downloadSpeed, setDownloadSpeed] = useState(0)
